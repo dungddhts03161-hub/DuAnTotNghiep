@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Office Muse">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5ece4"/>
+      <stop offset="0.52" stop-color="#c9b19f"/>
+      <stop offset="1" stop-color="#8f7463"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#201612" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <circle cx="420" cy="260" r="330" fill="#ffffff" opacity="0.16"/>
+  <circle cx="860" cy="820" r="180" fill="#0b0908" opacity="0.08"/>
+  <g filter="url(#shadow)">
+    <rect x="1200" y="225" width="430" height="630" rx="220" fill="#fffaf5" opacity="0.76"/>
+    <path d="M 1280 360 C 1205 505, 1155 635, 1105 790 L 1725 790 C 1675 635, 1625 505, 1550 360 Z" fill="#3f342f" opacity="0.88"/>
+    <path d="M 1295 360 C 1377 430, 1453 430, 1535 360" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity="0.82"/>
+    <circle cx="1415" cy="305" r="62" fill="#d7aa86" opacity="0.92"/>
+  </g>
+  <text x="120" y="760" font-family="Georgia, serif" font-size="92" fill="#ffffff" opacity="0.92">Office Muse</text>
+  <text x="128" y="830" font-family="Arial, sans-serif" font-size="24" letter-spacing="7" fill="#ffffff" opacity="0.80">CELINE CLOSET</text>
+  <text x="128" y="885" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" opacity="0.72">Minimal pieces, elegant details</text>
+</svg>

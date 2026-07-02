@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Lookbook">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7efe8"/>
+      <stop offset="0.52" stop-color="#ddc8b7"/>
+      <stop offset="1" stop-color="#b99782"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#201612" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <circle cx="430" cy="260" r="330" fill="#ffffff" opacity="0.16"/>
+  <circle cx="830" cy="780" r="180" fill="#0b0908" opacity="0.08"/>
+  <g filter="url(#shadow)">
+    <rect x="1120" y="225" width="430" height="630" rx="220" fill="#fffaf5" opacity="0.76"/>
+    <path d="M 1200 360 C 1125 505, 1075 635, 1025 790 L 1645 790 C 1595 635, 1545 505, 1470 360 Z" fill="#74564b" opacity="0.88"/>
+    <path d="M 1215 360 C 1297 430, 1373 430, 1455 360" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity="0.82"/>
+    <circle cx="1335" cy="305" r="62" fill="#d7aa86" opacity="0.92"/>
+  </g>
+  <text x="120" y="760" font-family="Georgia, serif" font-size="92" fill="#ffffff" opacity="0.92">Lookbook</text>
+  <text x="128" y="830" font-family="Arial, sans-serif" font-size="24" letter-spacing="7" fill="#ffffff" opacity="0.80">CELINE CLOSET</text>
+  <text x="128" y="885" font-family="Arial, sans-serif" font-size="28" fill="#ffffff" opacity="0.72">Style guide section</text>
+</svg>
