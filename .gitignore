@@ -1,0 +1,7 @@
+/target/
+/.idea/
+*.iml
+*.log
+.env
+src/main/webapp/assets/uploads/feedbacks/*
+!src/main/webapp/assets/uploads/feedbacks/.keep
